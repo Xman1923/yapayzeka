@@ -1,8 +1,4 @@
-Verdiğiniz Nuxt.js bileşenleri ve sayfalarına göre `package.json` dosyasını güncelleyerek, bağımlılıkları ve yapılandırmaları uygun hale getirebiliriz. Aşağıda güncellenmiş bir `package.json` örneği bulunmaktadır.
 
-### Güncellenmiş `package.json`
-
-```json
 {
   "private": true,
   "type": "module",
@@ -22,32 +18,7 @@ Verdiğiniz Nuxt.js bileşenleri ve sayfalarına göre `package.json` dosyasın�
     "@nuxt/devtools": "^1.0.3"
   }
 }
-```
 
-### Açıklamalar:
 
-1. **dependencies**:
-   - `nuxt`: Uygulamanızın çerçevesi.
-   - `vue`: Vue.js, uygulamanızın temel yapı taşı.
-   - `vue-router`: Vue.js uygulamanızda yönlendirme işlemleri için gerekli.
 
-2. **devDependencies**:
-   - `@nuxt/devtools`: Nuxt.js geliştirme araçları.
-
-### Ek Adımlar
-
-1. **Yeni Bağımlılıkları Yükleme**: Güncellenmiş `package.json` dosyanızı kaydettikten sonra, terminalde projenizin kök dizinine gidin ve aşağıdaki komutu çalıştırarak bağımlılıkları yükleyin:
-
-   ```bash
-   npm install
-   ```
-
-2. **Vercel veya Diğer Dağıtım Ortamlarında Dağıtım**: Değişikliklerinizi versiyon kontrol sisteminize (örneğin Git) gönderdikten sonra, Vercel veya diğer dağıtım ortamlarında yeniden dağıtım yapın. Vercel, `package.json` dosyasını otomatik olarak okuyacak ve gerekli bağımlılıkları kuracaktır.
-
-3. **Node.js Sürümünü Kontrol Edin**: Projenizin kök dizininde bir `.nvmrc` dosyası oluşturarak kullanılacak Node.js sürümünü belirtebilirsiniz. Örneğin:
-
-   ```
-   16
-   ```
-
-Bu adımları takip ederek `package.json` dosyanızı güncelleyebilir ve proje yapılandırmanızı sağlamlaştırabilirsiniz. Eğer başka bir sorunuz veya isteğiniz olursa, yardımcı olmaktan memnuniyet duyarım!
+ 
