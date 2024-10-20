@@ -1,11 +1,9 @@
-
 <template>
   <div>
     <Header />
-    <div class="container">
-      <NuxtWelcome />
+    <main class="main-content">
       <nuxt />
-    </div>
+    </main>
     <Footer />
   </div>
 </template>
@@ -23,12 +21,16 @@ export default {
 </script>
 
 <style>
-/* İsteğe bağlı stiller */
+/* Global styles can be placed here */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
 }
+
+.main-content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
 </style>
-
-
